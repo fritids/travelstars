@@ -1,0 +1,108 @@
+body {
+	background-image: url('../img/nashville_skyline_c.jpg');
+	background-repeat: no-repeat;
+	background-color: #f9e9c9;
+}
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: 'BebasRegular';
+	font-size: 44px;
+	letter-spacing: 6px;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	color: #e51d30;
+}
+
+
+h2 {
+	font-family: 'BebasRegular';
+	font-size: 24px;
+	letter-spacing: 6px;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	color: #e51d30;
+}
+
+h3 {
+	font-family: 'CrimsonRoman';
+	text-align: center;
+	font-family: 'serif';
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.herologo {
+	padding-left: 50px;
+	float: none;
+}
+
+
+.container-fluid {
+	background-color: #f9e9c9;
+
+}
+
+
+.navbar-inner {
+	background-color: #f79229;
+	background-image: none;
+  background-repeat: no-repeat;
+  opacity: .9;
+  /*filter: none;*/
+}
+
+.navbar .nav > li > a {
+	font-family: 'BebasRegular';
+	font-size: 12px;
+	float: none;
+	padding: 20px 15px 10px;
+	color: #2d1c34;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.hero-unit {
+	padding: 0px;
+}
+
+.maindiv {
+	height: 960px;
+}
+
+/*.hero-unit img {
+	width: 100%; 
+	height: auto;
+	background-image: url('../img/ts_hero.jpg');
+ 	background-repeat: none;
+}*/
+
+.aboutus-wrapper {
+	background-color: #f79229;
+	width: 100%;
+	height: 800px;
+	margin: auto;
+}
+
+.aboutus {
+	width: 100%; 
+	height: 800px;
+	background-image: url('../img/ts_hero.jpg');
+ 	background-repeat: none;
+ 	background-color: #f79229;
+}
+
+
+.span4-logo {
+	margin-right: auto;
+	margin-left: auto;
+}
