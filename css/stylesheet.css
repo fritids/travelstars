@@ -368,6 +368,40 @@ a {
 	padding: 15px 0px 0px 0px;
 }
 
+
+
+#submit {
+	background-color:#f3b543;
+/*	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:1px solid #dcdcdc;*/
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+	border-style: none;
+	display:inline-block;
+	width: 100px;
+	height: 30px;
+	color:#000;
+	font-family: 'ColaborateBoldRegular';
+	font-size:18px;
+	padding:7px 27px;
+	text-decoration:none;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin-top: 15px;
+}
+#submit:hover {
+	background-color:#fff;
+}
+#submit:active {
+	position:relative;
+	top:1px;
+}
+
+
+
 #message {
 	height: 200px;
 }
