@@ -37,15 +37,44 @@ $(document).ready(function() {
 		return false;
  	});
 
+ 	$("#currencybutton").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#currency").offset().top
+		}, 1000);
+		return false;
+ 	});
+
+
 
  	//Random bg image on page laod
  	var images = ['bg1.jpg', 'bg2.jpg', 'bg3.jpg', 'bg4.jpg', 'bg5.jpg', 'bg6.jpg'];
  	$('body').css({'background-image': 'url(img/' + images[Math.floor(Math.random() *      images.length)] + ')'});
 
- 	//form submit
- 	$("#submit").click(function(){
 
- 	});
+ 	// CURRENCY CONVERTER
+ 	$('#convert').click(function(){
+	 
+	 //Get all the values
+	 var amount = $('#amount').val();
+	 var from = $('#fromCurrency').val();
+	 var to = $('#toCurrency').val();
+	 
+	 //Make data string
+	 var dataString = "amount=" + amount + "&from=" + from + "&to=" + to;
+	 
+		 $.ajax({
+		   type: "POST",
+		   url: "php/ajax_converter.php",
+		   data: dataString,
+		   success: function(data){
+			 //Show results div
+			 $('#results').show();
+			
+			//Put received response into result div
+			 $('#results').html(data);
+		   }
+		 });
+	});
 
 
 }); // end doc ready
