@@ -51,14 +51,6 @@ $(document).ready(function() {
 		return false;
  	});
 
- 	$("#currencybutton").click(function() {
-		$('html, body').animate({
-			scrollTop: $("#currency").offset().top
-		}, 1000);
-		return false;
- 	});
-
-
 
 
  	//Random bg image on page load
@@ -66,7 +58,6 @@ $(document).ready(function() {
  	$('body').css({'background-image': 'url(img/' + images[Math.floor(Math.random() *      images.length)] + ')'});
 
 
-<<<<<<< HEAD
  	//Rollover images in Team section
  	$("img.rollover").hover( 
 		function() { this.src = this.src.replace("_off", "_on"); 
@@ -75,8 +66,6 @@ $(document).ready(function() {
 		});
 
 
-=======
->>>>>>> 9b5b87831568301409df5722f5689fe33b70090f
  	// CURRENCY CONVERTER
  	$('#convert').click(function(){
 	 
