@@ -50,18 +50,13 @@ if (isset($_REQUEST['email']))
 <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-<link href="fonts/Bebas-fontfacekit/bebas_stylesheet.css" type="text/css" rel="stylesheet"/>
-<link href="fonts/Crimson-fontfacekit/crimson_stylesheet.css" type="text/css" rel="stylesheet"/>
-<link href="fonts/WisdomScript/stylesheet.css" type="text/css" rel="stylesheet"/>
+<!-- Typekit Franklin Gothic -->
+<script type="text/javascript" src="//use.typekit.net/qqz5urg.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 <link href="fonts/Colaborate/stylesheet.css" type="text/css" rel="stylesheet"/>
-
-<!--<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
-<link href="css/bootstrap-responsive.css" type="text/css" rel="stylesheet"/>-->
-<!-- <script src="js/bootstrap.min.js"></script> -->
 <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
-
 <script src="js/jquery-1.9.1.min.js"></script>
-
 <script src="js/scripts.js"></script>
 <style>
 	.sfe-break-top{
@@ -84,9 +79,10 @@ if (isset($_REQUEST['email']))
 	<nav>
 	  <ul>
 	    <li><a href="#" id="aboutbutton">About Us</a></li>
-	    <li><a href="#" id="clientsbutton">Our Clients</a></li>
+	    <li><a href="#" id="clientsbutton">Clients</a></li>
 	    <li><a href="#" id="contactsbutton">Contact Us</a></li>
 	    <li><a href="#" id="teambutton">The Team</a></li>
+	    <li><a href="#" id="currencybutton">Currency Converter</a></li>
 	  </ul>
 	</nav>
 </div> <!-- navbar end -->
@@ -110,7 +106,7 @@ if (isset($_REQUEST['email']))
 			<div class="aboutus-copy">
 				<h3>Travel for the Stars is a team of professionals dedicated to excellence and service.</h3>
 				<hr>
-				<p>We specialize in entertainment and luxury travel. From a musician's world tour, to a luxury European get-away for two, we can meet your budget, and exceed your expectations. We have a combined 75 years of travel industry experience, and we know the ins and outs of making your trip or tour go without a hitch. Proudly founded in Nashville, TN in 1994. Travel with the best, Travel for the Stars.</p>
+				<p>We specialize in entertainment and luxury travel. From a musician's world tour, to a luxury European get-away for two, we can meet your budget, and exceed your expectations. Combined, we have over 80 years of travel industry experience, and we know the ins and outs of making your trip or tour go without a hitch. Proudly founded in Nashville, TN in 1994. Travel with the best, Travel for the Stars.</p>
 			</div>
 		</div>
 	</div>
@@ -120,28 +116,21 @@ if (isset($_REQUEST['email']))
 <div class="clients-wrapper" id="clients">
 	<div class="clients">
 		<div class="headline-section">
-			<h1>Our Clients</h1>
+    <div class="aboutus-copy">
+      <h3>Our clients are our most valued resource.</h3>
+      <hr><br><br>
+        <a href="http://www.reba.com">Reba McEntire</a><br><br>
+        <a href="http://www.timmcgraw.com">Tim McGraw</a><br><br>
+        <a href="http://www.blakeshelton.com">Blake Shelton</a><br><br>
+        <a href="http://www.bigmachinelabelgroup.com">Big Machine Label Group</a><br><br>
+        <a href="http://www.martina-mcbride.com">Martina Mcbride</a><br><br>
+        <a href="http://www.faithhill.com">Faith Hill</a><br><br>
+        <a href="http://www.ronniedunn.com">Ronnie Dunn</a><br><br>
+        <a href="http://www.kixbrooks.com">Kix Brooks</a><br><br>
+        <a href="http://www.bigandrich.com">Big and Rich</a><br><br>
+        <a href="http://www.cmaworld.com">Country Music Association</a><br><br>
+        <a href="http://www.lukebryan.com">Luke Bryan</a><br><br>
 		</div>
-		<div class="copy">
-			<div class="clientcopy-left">
-				<a href="http://www.reba.com"><h4>Reba McEntire</h4></a>
-				<a href="http://www.timmcgraw.com"><h4>Tim McGraw</h4></a>
-				<a href="http://www.blakeshelton.com"><h4>Blake Shelton</h4></a>
-				<a href="http://www.cmaworld.com"><h4>Country music Association</h4></a>
-				<a href="http://www.ronniedunn.com"><h4>Ronnie Dunn</h4></a>
-				<a href="http://www.kixbrooks.com"><h4>Kix Brooks</h4></a>
-				<a href="http://www.martina-mcbride.com"><h4>Martina Mcbride</h4></a>
-			</div>
-			<div class="clientcopy-right">
-				<a href="http://www.georgethorogood.com"><h4>George Thorogood</h4></a>
-				<a href="http://www.bigandrich.com"><h4>Big and Rich</h4></a>
-				<a href="http://www.faithhill.com"><h4>Faith Hill</h4></a>
-				<a href="http://www.lukebryan.com"><h4>Luke Bryan</h4></a>
-				<a href="http://www.gilbertbrantley.com"><h4>Gilbert Brantley</h4></a>
-				<a href="http://www.leebrice.com"><h4>Lee Brice</h4></a>
-				<a href="http://www.bigmachinelabelgroup.com"><h4>Big Machine Label Group</h4></a>
-				<a href="http://www.dickeybetts.com"><h4>Dickey Betts</h4></a>
-			</div>
 		</div>
 	</div>
 </div> <!-- clients-wrapper end -->
@@ -149,28 +138,343 @@ if (isset($_REQUEST['email']))
 
 
 <div class="contact-wrapper" >
-	<div class="contact-left" id="contact">
-		<?php 
-		if (isset($_REQUEST['email'])) {
-			echo "<h4>Success!</h4>";
-		}
-		$mail_form = include('php/mail_form.php'); ?>
-	</div> <!-- end div contact -->
+  <div class="contact">
+  	<div class="contact-left" id="contact">
+  		<?php 
+  		if (isset($_REQUEST['email'])) {
+  			echo "<h4>Success!</h4>";
+  		}
+  		$mail_form = include('php/mail_form.php'); ?>
+  	</div> <!-- end div contact -->
 
-	
+  	
 
-	<div class="contact-right">
-		<h5>Visit Us</h5>
-		<h3>Travel for the Stars<br> 1225 16th Ave South<br> Nashville, TN 37212</h3>
+  	<div class="contact-right">
+  		<h5>Visit Us</h5>
+  		<h3>Travel for the Stars<br> 1225 16th Ave South<br> Nashville, TN 37212</h3>
 
-		<h5>Call Us</h5>
-		<h3>615-329-2020</h3>
+  		<h5>Call Us</h5>
+  		<h3>615-329-2020</h3>
 
-		<h5>Tweet Us</h5>
-		<h3>@travel4stars</h3>
-		<iframe src="https://www.google.com/finance/converter?a=24&from=EUR&to=USD&meta=ei%3D-a1HUdDrC6G4lgOMdw"></iframe>
-	</div>
+  		<h5>Tweet Us</h5>
+  		<a href="http://twitter.com/travel4stars" target="blank"><h3>@travel4stars</h3></a>
+  		<!-- <iframe src="https://www.google.com/finance/converter?a=24&from=EUR&to=USD&meta=ei%3D-a1HUdDrC6G4lgOMdw"></iframe> -->
+  	</div>
+  </div>
 </div> <!-- contact-wrapper end -->
+
+<div class="team-wrapper" id="team">
+  <div class="team">
+   <!--  <div class="headline-section">
+      <h1>The Team</h1>
+    </div> -->
+    <div class="teamcopy" id="pam">
+      <div class="team-pic">
+        <a href="mailto:pam@travelstars.net"><img src="img/pam_off.png" class="rollover" /></a>
+      </div>
+      <div class="teamcopy-left">
+      <h3>Pam Keller</h3><h6>President/Founder</h6>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <hr>
+      <ul>
+        <li>25 years experience in business administration</li>
+        <li>25 years experience in marketing and sales</li>
+        <li>16 years experience in the travel industry</li>
+        <li>26 years experience in meeting planning</li>
+        <li>Graduate of Nashville Tech Sabre travel school</li>
+        <li>16 years in tour and entertainment travel</li>
+        <li>Extensive international and domestic travel experience</li>
+        <li>Specialist certifications for Italy, Portugal, Cancun and South Africa</li>
+      </ul>
+      </div>
+    </div>
+
+
+    <div class="teamcopy" id="elvie">
+      <div class="team-pic">
+        <a href="mailto:elvie@travelstars.net"><img src="img/elvie_off.png" class="rollover" /></a>
+      </div>
+      <div class="teamcopy-left">
+      <h3>Elvie Foster</h3><h6>Travel Consultant</h6>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+      <ul>
+        <li>30 years of Leisure and Corporate travel experience</li>
+        <li>2 years of Entertainment travel experience</li>
+      </ul>
+      </div>
+    </div>
+
+
+    <div class="teamcopy" id="beth">
+      <div class="team-pic">
+        <a href="mailto:beth@travelstars.net"><img src="img/beth_off.png" class="rollover" /></a>
+      </div>
+      <div class="teamcopy-left">
+      <h3>Beth Anderson</h3><h6>Travel Consultant</h6>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+      <ul>
+        <li>BS degree in Tourism, Food and Lodging Administration from UT</li>
+        <li>Graduate of Nashville Tech Sabre Trave lSchool</li>
+        <li>12 years travel industry experience specializing in leisure</li>
+        <li>4 years event planning and coordination</li>
+        <li>Certified Sandals Specialist</li>
+        <li>Couples Resorts Preferred Agent</li>
+        <li>Palace Resorts Specialist</li>
+        <li>Official Cancun Counselor</li>
+      </ul>
+      </div>
+    </div>
+
+
+    <div class="teamcopy" id="debra">
+      <div class="team-pic">
+        <a href="mailto:debra@travelstars.net"><img src="img/debra_off.png" class="rollover" /></a>
+      </div>
+      <div class="teamcopy-left">
+      <h3>Debra Rohrer</h3><h6>Travel Consultant</h6>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+      <ul>
+        <li>22 years in Entertainment Travel</li>
+      </ul>
+      </div>
+    </div>
+
+
+    <div class="teamcopy" id="courtney">
+      <div class="team-pic">
+        <a href="mailto:courtney@travelstars.net"><img src="img/courtney_off.png" class="rollover" /></a>
+      </div>
+      <div class="teamcopy-left">
+      <h3>Courtney Keller</h3><h6>Sales and Marketing Director</h6>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+      <ul>
+        <li>Line items here</li>
+        <li>Line items here</li>
+        <li>Line items here</li>
+      </ul>
+      </div>
+    </div>
+
+
+    <div class="teamcopy" id="frances">
+      <div class="team-pic">
+        <a href="mailto:frances@travelstars.net"><img src="img/frances_off.png" class="rollover" /></a>
+      </div>
+      <div class="teamcopy-left">
+      <h3>Frances Goodlow</h3><h6>Receptionist</h6>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <hr>
+      <ul>
+        <li>8 years marketing experience</li>
+        <li>11 years corporate training and customer relations</li>
+        <li>14 years travel administration assistant</li>
+      </ul>
+      </div>
+    </div>
+
+
+  </div>
+</div> <!-- team-wrapper end -->
+
+
+
+<div class="currency-wrapper" id="currency">
+	<div class="currency">
+		<div id="currencyBox">
+      <div class="data">
+          <label for="amount">Convert this amount:</label>
+          <input type="text" name="amount" id="amount" value="1" />
+      </div>
+    
+      <div class="styled-select">
+      <div class="data">
+          <label for="fromCurrency">From this currency:</label>
+          <select name="fromCurrency" id="fromCurrency">
+            <option selected="" value="EUR">Euro - EUR</option>
+            <option value="USD">United States Dollars - USD</option>
+            <option value="GBP">United Kingdom Pounds - GBP</option>
+            <option value="CAD">Canada Dollars - CAD</option>
+            <option value="AUD">Australia Dollars - AUD</option>
+            <option value="JPY">Japan Yen - JPY</option>
+            <option value="INR">India Rupees - INR</option>
+            <option value="NZD">New Zealand Dollars - NZD</option>
+            <option value="CHF">Switzerland Francs - CHF</option>
+            <option value="ZAR">South Africa Rand - ZAR</option>
+            <option value="DZD">Algeria Dinars - DZD</option>
+            <option value="USD">America (United States) Dollars - USD</option>
+            <option value="ARS">Argentina Pesos - ARS</option>
+            <option value="AUD">Australia Dollars - AUD</option>
+            <option value="BHD">Bahrain Dinars - BHD</option>
+            <option value="BRL">Brazil Reais - BRL</option>
+            <option value="BGN">Bulgaria Leva - BGN</option>
+            <option value="CAD">Canada Dollars - CAD</option>
+            <option value="CLP">Chile Pesos - CLP</option>
+            <option value="CNY">China Yuan Renminbi - CNY</option>
+            <option value="CNY">RMB (China Yuan Renminbi) - CNY</option>
+            <option value="COP">Colombia Pesos - COP</option>
+            <option value="CRC">Costa Rica Colones - CRC</option>
+            <option value="HRK">Croatia Kuna - HRK</option>
+            <option value="CZK">Czech Republic Koruny - CZK</option>
+            <option value="DKK">Denmark Kroner - DKK</option>
+            <option value="DOP">Dominican Republic Pesos - DOP</option>
+            <option value="EGP">Egypt Pounds - EGP</option>
+            <option value="EEK">Estonia Krooni - EEK</option>
+            <option value="EUR">Euro - EUR</option>
+            <option value="FJD">Fiji Dollars - FJD</option>
+            <option value="HKD">Hong Kong Dollars - HKD</option>
+            <option value="HUF">Hungary Forint - HUF</option>
+            <option value="ISK">Iceland Kronur - ISK</option>
+            <option value="INR">India Rupees - INR</option>
+            <option value="IDR">Indonesia Rupiahs - IDR</option>
+            <option value="ILS">Israel New Shekels - ILS</option>
+            <option value="JMD">Jamaica Dollars - JMD</option>
+            <option value="JPY">Japan Yen - JPY</option>
+            <option value="JOD">Jordan Dinars - JOD</option>
+            <option value="KES">Kenya Shillings - KES</option>
+            <option value="KRW">Korea (South) Won - KRW</option>
+            <option value="KWD">Kuwait Dinars - KWD</option>
+            <option value="LBP">Lebanon Pounds - LBP</option>
+            <option value="MYR">Malaysia Ringgits - MYR</option>
+            <option value="MUR">Mauritius Rupees - MUR</option>
+            <option value="MXN">Mexico Pesos - MXN</option>
+            <option value="MAD">Morocco Dirhams - MAD</option>
+            <option value="NZD">New Zealand Dollars - NZD</option>
+            <option value="NOK">Norway Kroner - NOK</option>
+            <option value="OMR">Oman Rials - OMR</option>
+            <option value="PKR">Pakistan Rupees - PKR</option>
+            <option value="PEN">Peru Nuevos Soles - PEN</option>
+            <option value="PHP">Philippines Pesos - PHP</option>
+            <option value="PLN">Poland Zlotych - PLN</option>
+            <option value="QAR">Qatar Riyals - QAR</option>
+            <option value="RON">Romania New Lei - RON</option>
+            <option value="RUB">Russia Rubles - RUB</option>
+            <option value="SAR">Saudi Arabia Riyals - SAR</option>
+            <option value="SGD">Singapore Dollars - SGD</option>
+            <option value="SKK">Slovakia Koruny - SKK</option>
+            <option value="ZAR">South Africa Rand - ZAR</option>
+            <option value="KRW">South Korea Won - KRW</option>
+            <option value="LKR">Sri Lanka Rupees - LKR</option>
+            <option value="SEK">Sweden Kronor - SEK</option>
+            <option value="CHF">Switzerland Francs - CHF</option>
+            <option value="TWD">Taiwan New Dollars - TWD</option>
+            <option value="THB">Thailand Baht - THB</option>
+            <option value="TTD">Trinidad and Tobago Dollars - TTD</option>
+            <option value="TND">Tunisia Dinars - TND</option>
+            <option value="TRY">Turkey Lira - TRY</option>
+            <option value="AED">United Arab Emirates Dirhams - AED</option>
+            <option value="GBP">United Kingdom Pounds - GBP</option>
+            <option value="USD">United States Dollars - USD</option>
+            <option value="VEB">Venezuela Bolivares - VEB</option>
+            <option value="VND">Vietnam Dong - VND</option>
+            <option value="ZMK">Zambia Kwacha - ZMK</option>
+          </select>
+      </div>
+      </div> <!-- end styled-select -->
+    
+      <div class="styled-select">
+      <div class="data">
+          <label for="toCurrency">To this currency:</label>
+          <select name="toCurrency" id="toCurrency">
+            <option value="USD">United States Dollars - USD</option>
+            <option value="GBP">United Kingdom Pounds - GBP</option>
+            <option value="CAD">Canada Dollars - CAD</option>
+            <option value="AUD">Australia Dollars - AUD</option>
+            <option value="JPY">Japan Yen - JPY</option>
+            <option value="INR">India Rupees - INR</option>
+            <option value="NZD">New Zealand Dollars - NZD</option>
+            <option value="CHF">Switzerland Francs - CHF</option>
+            <option value="ZAR">South Africa Rand - ZAR</option>
+            <option value="DZD">Algeria Dinars - DZD</option>
+            <option value="USD">America (United States) Dollars - USD</option>
+            <option value="ARS">Argentina Pesos - ARS</option>
+            <option value="AUD">Australia Dollars - AUD</option>
+            <option value="BHD">Bahrain Dinars - BHD</option>
+            <option value="BRL">Brazil Reais - BRL</option>
+            <option value="BGN">Bulgaria Leva - BGN</option>
+            <option value="CAD">Canada Dollars - CAD</option>
+            <option value="CLP">Chile Pesos - CLP</option>
+            <option value="CNY">China Yuan Renminbi - CNY</option>
+            <option value="CNY">RMB (China Yuan Renminbi) - CNY</option>
+            <option value="COP">Colombia Pesos - COP</option>
+            <option value="CRC">Costa Rica Colones - CRC</option>
+            <option value="HRK">Croatia Kuna - HRK</option>
+            <option value="CZK">Czech Republic Koruny - CZK</option>
+            <option value="DKK">Denmark Kroner - DKK</option>
+            <option value="DOP">Dominican Republic Pesos - DOP</option>
+            <option value="EGP">Egypt Pounds - EGP</option>
+            <option value="EEK">Estonia Krooni - EEK</option>
+            <option value="EUR">Euro - EUR</option>
+            <option value="FJD">Fiji Dollars - FJD</option>
+            <option value="HKD">Hong Kong Dollars - HKD</option>
+            <option value="HUF">Hungary Forint - HUF</option>
+            <option value="ISK">Iceland Kronur - ISK</option>
+            <option value="INR">India Rupees - INR</option>
+            <option value="IDR">Indonesia Rupiahs - IDR</option>
+            <option value="ILS">Israel New Shekels - ILS</option>
+            <option value="JMD">Jamaica Dollars - JMD</option>
+            <option value="JPY">Japan Yen - JPY</option>
+            <option value="JOD">Jordan Dinars - JOD</option>
+            <option value="KES">Kenya Shillings - KES</option>
+            <option value="KRW">Korea (South) Won - KRW</option>
+            <option value="KWD">Kuwait Dinars - KWD</option>
+            <option value="LBP">Lebanon Pounds - LBP</option>
+            <option value="MYR">Malaysia Ringgits - MYR</option>
+            <option value="MUR">Mauritius Rupees - MUR</option>
+            <option value="MXN">Mexico Pesos - MXN</option>
+            <option value="MAD">Morocco Dirhams - MAD</option>
+            <option value="NZD">New Zealand Dollars - NZD</option>
+            <option value="NOK">Norway Kroner - NOK</option>
+            <option value="OMR">Oman Rials - OMR</option>
+            <option value="PKR">Pakistan Rupees - PKR</option>
+            <option value="PEN">Peru Nuevos Soles - PEN</option>
+            <option value="PHP">Philippines Pesos - PHP</option>
+            <option value="PLN">Poland Zlotych - PLN</option>
+            <option value="QAR">Qatar Riyals - QAR</option>
+            <option value="RON">Romania New Lei - RON</option>
+            <option value="RUB">Russia Rubles - RUB</option>
+            <option value="SAR">Saudi Arabia Riyals - SAR</option>
+            <option value="SGD">Singapore Dollars - SGD</option>
+            <option value="SKK">Slovakia Koruny - SKK</option>
+            <option value="ZAR">South Africa Rand - ZAR</option>
+            <option value="KRW">South Korea Won - KRW</option>
+            <option value="LKR">Sri Lanka Rupees - LKR</option>
+            <option value="SEK">Sweden Kronor - SEK</option>
+            <option value="CHF">Switzerland Francs - CHF</option>
+            <option value="TWD">Taiwan New Dollars - TWD</option>
+            <option value="THB">Thailand Baht - THB</option>
+            <option value="TTD">Trinidad and Tobago Dollars - TTD</option>
+            <option value="TND">Tunisia Dinars - TND</option>
+            <option value="TRY">Turkey Lira - TRY</option>
+            <option value="AED">United Arab Emirates Dirhams - AED</option>
+            <option value="GBP">United Kingdom Pounds - GBP</option>
+            <option value="USD">United States Dollars - USD</option>
+            <option value="VEB">Venezuela Bolivares - VEB</option>
+            <option value="VND">Vietnam Dong - VND</option>
+            <option value="ZMK">Zambia Kwacha - ZMK</option>
+          </select>
+      </div>
+      </div> <!-- end styled-select -->
+    
+      <div class="data">
+      	<input type="button" name="convert" id="convert" value="Convert" />
+      </div>
+    </div> <!-- end currency Box-->
+    <!-- Below conversion rsults will be displayed -->
+    <div id="resultsBox">
+      <div id="results"></div>
+    </div>
+  </div> <!-- end currency -->
+</div> <!-- currency wrapper end -->
 
 
 
