@@ -7,7 +7,7 @@
 5. Add google maps API to load custom map featuring "places to visit world map".
 
 Phase 1: CSS/HTML overall site visual design.
--Mostly Complete, still working on cleanup and "Team" section
+-Mostly Complete, still working on cleanup and "Team" section bio copy for each employee
 
 Phase 2: jquery animations and random bg image script.
 -Complete
@@ -16,7 +16,7 @@ Phase 3: php/ajax email submit form
 -Complete
 
 Phase 4: php/ajax currency converter
--Functionality complete, still working on visual styling
+-Complete
 
 Phase 5: Google Maps API
 -Planning on getting API key, setting up custom map and implementing 100% width map to site in it's own section.
