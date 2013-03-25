@@ -262,7 +262,7 @@ a {
 
 a:link {color:#fff;}      /* unvisited link */
 a:visited {color:#fff;}  /* visited link */
-a:hover {color:#f79229;}  /* mouse over link */
+a:hover {color:#f3b543;}  /* mouse over link */
 a:active {color:#fff;}  /* selected link */
 
 #navbar-logo {
@@ -299,7 +299,7 @@ a:active {color:#fff;}  /* selected link */
 }
 
 .aboutus-copy {
-	padding-top: 125px;
+	padding-top: 100px;
 	width: 400px;
 	margin-left: 100px;
 }
@@ -318,7 +318,7 @@ a:active {color:#fff;}  /* selected link */
 
 .aboutus-copy a:link {color:#fff;}      /* unvisited link */
 .aboutus-copy a:visited {color:#fff;}  /* visited link */
-.aboutus-copy a:hover {color:#f79229;}  /* mouse over link */
+.aboutus-copy a:hover {color:#f3b543;}  /* mouse over link */
 .aboutus-copy a:active {color:#fff;}  /* selected link */
 
 .clients-wrapper {
@@ -387,6 +387,26 @@ a:active {color:#fff;}  /* selected link */
 	float: left;
 	/*background-color: #fff*/;
 }
+
+.contact-right a {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: -1px;
+	line-height: 28px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 0px;
+}
+
+.contact-right a:link {color:#fff;}      /* unvisited link */
+.contact-right a:visited {color:#fff;}  /* visited link */
+.contact-right a:hover {color:#f3b543;}  /* mouse over link */
+.contact-right a:active {color:#fff;}  /* selected link */
 
 .contact-left input {
 	width: 300px; 
@@ -697,11 +717,47 @@ input[type=button] {
 	font-weight: 300;
 	font-size: 13px;
 	/*line-height: 10px;*/
-	color: #fff;
+	color: #2d1c34;
 	margin:0;
 	padding:0;
 	margin-top: 10px;
 	text-align: left;
+}
+
+.teamcopy-left h3 {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: -1px;
+	line-height: 28px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #2d1c34;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.teamcopy-left h6 {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 10px;
+	text-align: left;
+	color: #2d1c34;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.teamcopy-left p {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #2d1c34;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 

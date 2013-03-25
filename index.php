@@ -31,7 +31,7 @@ if (isset($_REQUEST['email']))
     $email = $_REQUEST['email'] ;
     $subject = $_REQUEST['subject'] ;
     $message = $_REQUEST['message'] ;
-    mail("zkellerdevelops@gmail.com", "Subject: $subject",
+    mail("hellotravelstars@gmail.com", "Subject: $subject",
     $message, "From: $email" );
     header("location: index.php");
     }
@@ -119,17 +119,17 @@ if (isset($_REQUEST['email']))
     <div class="aboutus-copy">
       <h3>Our clients are our most valued resource.</h3>
       <hr><br>
-        <a href="http://www.reba.com">Reba McEntire</a><br><br>
-        <a href="http://www.timmcgraw.com">Tim McGraw</a><br><br>
-        <a href="http://www.blakeshelton.com">Blake Shelton</a><br><br>
-        <a href="http://www.bigmachinelabelgroup.com">Big Machine Label Group</a><br><br>
-        <a href="http://www.martina-mcbride.com">Martina Mcbride</a><br><br>
-        <a href="http://www.faithhill.com">Faith Hill</a><br><br>
-        <a href="http://www.ronniedunn.com">Ronnie Dunn</a><br><br>
-        <a href="http://www.kixbrooks.com">Kix Brooks</a><br><br>
-        <a href="http://www.bigandrich.com">Big and Rich</a><br><br>
-        <a href="http://www.cmaworld.com">Country Music Association</a><br><br>
-        <a href="http://www.lukebryan.com">Luke Bryan</a><br><br>
+        <a href="http://www.reba.com" target="blank">Reba McEntire</a><br><br>
+        <a href="http://www.timmcgraw.com" target="blank">Tim McGraw</a><br><br>
+        <a href="http://www.blakeshelton.com" target="blank">Blake Shelton</a><br><br>
+        <a href="http://www.bigmachinelabelgroup.com" target="blank">Big Machine Label Group</a><br><br>
+        <a href="http://martinamcbride.com" target="blank">Martina Mcbride</a><br><br>
+        <a href="http://www.faithhill.com" target="blank">Faith Hill</a><br><br>
+        <a href="http://www.ronniedunn.com" target="blank">Ronnie Dunn</a><br><br>
+        <a href="http://www.kixbrooks.com" target="blank">Kix Brooks</a><br><br>
+        <a href="http://www.bigandrich.com" target="blank">Big and Rich</a><br><br>
+        <a href="http://www.cmaworld.com" target="blank">Country Music Association</a><br><br>
+        <a href="http://www.lukebryan.com" target="blank">Luke Bryan</a><br><br>
 		</div>
 		</div>
 	</div>
@@ -157,17 +157,13 @@ if (isset($_REQUEST['email']))
   		<h3>615-329-2020</h3>
 
   		<h5>Tweet Us</h5>
-  		<a href="http://twitter.com/travel4stars" target="blank"><h3>@travel4stars</h3></a>
-  		<!-- <iframe src="https://www.google.com/finance/converter?a=24&from=EUR&to=USD&meta=ei%3D-a1HUdDrC6G4lgOMdw"></iframe> -->
+  		<a href="http://twitter.com/travel4stars" target="blank">@travel4stars</a>
   	</div>
   </div>
 </div> <!-- contact-wrapper end -->
 
 <div class="team-wrapper" id="team">
   <div class="team">
-   <!--  <div class="headline-section">
-      <h1>The Team</h1>
-    </div> -->
     <div class="teamcopy" id="pam">
       <div class="team-pic">
         <a href="mailto:pam@travelstars.net"><img src="img/pam_off.png" class="rollover" /></a>
@@ -175,7 +171,7 @@ if (isset($_REQUEST['email']))
       <div class="teamcopy-left">
       <h3>Pam Keller</h3><h6>President/Founder</h6>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p>Pam is originally from Memphis TN where she met her husband, Ken.  They  moved back to Ken’s home of Nashville in 1972.  She has 2 wonderful sons and one fabulous granddaughter.</p>
       <hr>
       <ul>
         <li>25 years experience in business administration</li>
@@ -238,10 +234,15 @@ if (isset($_REQUEST['email']))
       <div class="teamcopy-left">
       <h3>Debra Rohrer</h3><h6>Travel Consultant</h6>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Debra Rohrer is originally from Ft. Lauderdale, FL - but has made Nashville her home since 1980 (when she was 6). She has 20 years of experience (off and on) in all aspects of the travel industry including entertainment travel, account management/development and sales.</p>
       <hr>
       <ul>
         <li>22 years in Entertainment Travel</li>
+        <li>Managed Artists Travel Connection</li>
+        <li>Director, Account Management</li>
+        <li>Vendor Negotiations with Travel Suppliers</li>
+        <li>Group travel including 2 full-ship charters</li>
+        <li>Showcase travel for record labels up to 500 people</li>
       </ul>
       </div>
     </div>
