@@ -194,11 +194,13 @@ if (isset($_REQUEST['email']))
       <div class="teamcopy-left">
       <h3>Elvie Foster</h3><h6>Travel Consultant</h6>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Elvie has been in the Travel Industry for over 31 years. She is originally from the Philippines but now considers Nashville TN her home. She lives in Nashville with her immediate family members as well as with two beautiful grandchildren, Skyler and Izabella.</p>
       <hr>
       <ul>
-        <li>30 years of Leisure and Corporate travel experience</li>
-        <li>2 years of Entertainment travel experience</li>
+        <li>31 years of Leisure and Corporate travel experience</li>
+        <li>Managed Tour and Travel in Goppingen Germany for the U.S. Army.</li>
+        <li>Enjoys arranging Sports Travel specially Football, College and Pro during Championship season and escorting groups.</li>
+        <li>Arranged travel for Radio Promotions/contest winners along with major record launches with Nashville’s Country Music Artists.</li>
       </ul>
       </div>
     </div>
@@ -211,7 +213,7 @@ if (isset($_REQUEST['email']))
       <div class="teamcopy-left">
       <h3>Beth Anderson</h3><h6>Travel Consultant</h6>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Originally from Gallatin, Tennessee, Beth considers herself lucky to be able to enjoy living in Nashville. She has been happily married to a wonderful man for almost 20 years. She and her husband Larry have three children; a 24 year old daughter and 16 year old twin boys.</p>
       <hr>
       <ul>
         <li>BS degree in Tourism, Food and Lodging Administration from UT</li>
@@ -255,12 +257,13 @@ if (isset($_REQUEST['email']))
       <div class="teamcopy-left">
       <h3>Courtney Keller</h3><h6>Sales and Marketing Director</h6>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Courtney has lived in the Nashville area all of her life. Before joining the Travel for the Stars team, she worked in the insurance industry and in sales for a large apparel company. She has a wonderful husband, a beautiful daughter and a spoiled Labrador Retriever. Courtney has a passion for music, a desire to travel and a sense of pride in being from the South.</p>
       <hr>
       <ul>
-        <li>Line items here</li>
-        <li>Line items here</li>
-        <li>Line items here</li>
+        <li>7 years experience in sales/account management</li>
+        <li>11 years experience in customer service</li>
+        <li>2 years event planning and coordination</li>
+        <li>3 years experience in using CRM software in relation to sales and marketing</li>
       </ul>
       </div>
     </div>
@@ -273,12 +276,12 @@ if (isset($_REQUEST['email']))
       <div class="teamcopy-left">
       <h3>Frances Goodlow</h3><h6>Receptionist</h6>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Frances was born a self-proclaimed Air Force Brat. She grew up in 3 different states before finally settling in Nashville. Married to a wonderful man for 3 years, they both share their love of dogs and are both big supporters of ASPCA and the Humane Shelter. She and her husband Dave are huge fans of the Nashville Predators.</p>
       <hr>
       <ul>
         <li>8 years marketing experience</li>
         <li>11 years corporate training and customer relations</li>
-        <li>14 years travel administration assistant</li>
+        <li>15 years as a travel administration assistant</li>
       </ul>
       </div>
     </div>
