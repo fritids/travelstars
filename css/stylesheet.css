@@ -150,8 +150,6 @@ hr {
 	float: left;
 } 
 
-
-
 .copy p {
 	font-family: "franklin-gothic-urw",sans-serif;
 	font-style: normal;
@@ -201,7 +199,7 @@ hr {
   padding-top: 150px;
 }
 
-.headline-section {
+.headline-section-copy {
 	width: 940px;
 	margin-left: auto;
   margin-right: auto;
@@ -339,6 +337,22 @@ a:active {color:#fff;}  /* selected link */
  	background-color: #150a1a;
 }
 
+.clients-copy {
+	padding-top: 100px;
+	width: 400px;
+	margin-left: 100px;
+	float: left;
+	text-align: left;
+}
+
+.clients-copy-right {
+	padding-top: 195px;
+	width: 400px;
+	margin-left: 10px;
+	float: left;
+	text-align: left;
+}
+
 .clients .headline-section h1 {
 	font-family: "franklin-gothic-urw",sans-serif;
 	font-style: normal;
@@ -380,7 +394,7 @@ a:active {color:#fff;}  /* selected link */
 }
 
 .contact-right {
-	width: 500px; 
+	width: 325px; 
 	height: 600px;
 	padding-top: 100px;
 	padding-right: 50px;
@@ -498,7 +512,7 @@ a:active {color:#fff;}  /* selected link */
 
 .currency-wrapper {
 	width: 100%;
-	height: 1200px;
+	height: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	/*overflow: visible;*/
@@ -508,7 +522,7 @@ a:active {color:#fff;}  /* selected link */
 
 .currency {
 	width: 1000px; 
-	height: 1200px;
+	height: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../img/spacer.png);
@@ -760,6 +774,45 @@ input[type=button] {
 	line-height: 24px;
 }
 
+footer {
+	background-color: #2d1c34;
+	height: 250px;
+	padding: 25px 50px 50px 50px;
+}
+
+footer a {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 20px 15px 10px 0px;
+	color: #fff;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+footer a:link {color:#fff;}      /* unvisited link */
+footer a:visited {color:#fff;}  /* visited link */
+footer a:hover {color:#f3b543;}  /* mouse over link */
+footer a:active {color:#fff;}  /* selected link */
+
+#footer-logo {
+	width: 175px;
+	height: 75px;
+	float:right;
+}
+
+#footer-address {
+	width: 700px;
+	float: left;
+}
+
+#footer-hr {
+	width: 100%;
+	float: left;
+}
 
 
 
