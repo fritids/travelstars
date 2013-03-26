@@ -78,11 +78,11 @@ if (isset($_REQUEST['email']))
 
 	<nav>
 	  <ul>
-	    <li><a href="#" id="aboutbutton-foot">About Us</a></li>
-	    <li><a href="#" id="clientsbutton-foot">Clients</a></li>
-	    <li><a href="#" id="contactsbutton-foot">Contact Us</a></li>
-	    <li><a href="#" id="teambutton-foot">The Team</a></li>
-	    <li><a href="#" id="currencybutton-foot">Currency Converter</a></li>
+	    <li><a href="#" id="aboutbutton">About Us</a></li>
+	    <li><a href="#" id="clientsbutton">Clients</a></li>
+	    <li><a href="#" id="contactsbutton">Contact Us</a></li>
+	    <li><a href="#" id="teambutton">The Team</a></li>
+	    <li><a href="#" id="currencybutton">Currency Converter</a></li>
 	  </ul>
 	</nav>
 </div> <!-- navbar end -->
