@@ -115,15 +115,15 @@ if (isset($_REQUEST['email']))
 
 <div class="clients-wrapper" id="clients">
 	<div class="clients">
-		<div class="headline-section">
-    <div class="aboutus-copy">
+		<div class="headline-section-copy">
+    <div class="clients-copy">
       <h3>Our clients are our most valued resource.</h3>
       <hr><br>
         <a href="http://www.reba.com" target="blank">Reba McEntire</a><br><br>
         <a href="http://www.timmcgraw.com" target="blank">Tim McGraw</a><br><br>
         <a href="http://www.blakeshelton.com" target="blank">Blake Shelton</a><br><br>
         <a href="http://www.bigmachinelabelgroup.com" target="blank">Big Machine Label Group</a><br><br>
-        <a href="http://martinamcbride.com" target="blank">Martina Mcbride</a><br><br>
+        <a href="http://www.martinamcbride.com" target="blank">Martina Mcbride</a><br><br>
         <a href="http://www.faithhill.com" target="blank">Faith Hill</a><br><br>
         <a href="http://www.ronniedunn.com" target="blank">Ronnie Dunn</a><br><br>
         <a href="http://www.kixbrooks.com" target="blank">Kix Brooks</a><br><br>
@@ -131,6 +131,19 @@ if (isset($_REQUEST['email']))
         <a href="http://www.cmaworld.com" target="blank">Country Music Association</a><br><br>
         <a href="http://www.lukebryan.com" target="blank">Luke Bryan</a><br><br>
 		</div>
+    <div class="clients-copy-right">
+      <a href="http://www.thealabamaband.com" target="blank">Alabama</a><br><br>
+        <a href="http://www.dickeybetts.com" target="blank">Dickey Betts</a><br><br>
+        <a href="http://www.floridageorgialine.com" target="blank">Florida Georgia Line</a><br><br>
+        <a href="http://www.eastoncorbin.com" target="blank">Easton Corbin</a><br><br>
+        <a href="http://www.cainwatters.com" target="blank">Cain Watters &amp; Associates</a><br><br>
+        <a href="http://www.leebrice.com" target="blank">Lee Brice</a><br><br>
+        <a href="http://www.georgethorogood.com" target="blank">George Thorogood</a><br><br>
+        <a href="http://www.brantleygilbert.com" target="blank">Brantley Gilbert</a><br><br>
+        <a href="http://www.perpetuumjazzile.com" target="blank">Perpetuum Jazzile</a><br><br>
+        <a href="http://www.themavericksband.com" target="blank">The Mavericks</a><br><br>
+        <a href="http://www.terriclark.com" target="blank">Terri Clark</a><br><br>
+    </div>
 		</div>
 	</div>
 </div> <!-- clients-wrapper end -->
@@ -151,12 +164,15 @@ if (isset($_REQUEST['email']))
 
   	<div class="contact-right">
   		<h5>Visit Us</h5>
+      <hr>
   		<h3>Travel for the Stars<br> 1225 16th Ave South<br> Nashville, TN 37212</h3>
 
   		<h5>Call Us</h5>
+      <hr>
   		<h3>615-329-2020</h3>
 
   		<h5>Tweet Us</h5>
+      <hr>
   		<a href="http://twitter.com/travel4stars" target="blank">@travel4stars</a>
   	</div>
   </div>
@@ -479,6 +495,22 @@ if (isset($_REQUEST['email']))
     </div>
   </div> <!-- end currency -->
 </div> <!-- currency wrapper end -->
+
+  <footer>
+    <div id="footer-content">
+      <div id="footer-address">
+        <h3>Travel for the Stars<br> 1225 16th Ave South Nashville, TN 37212</h3>
+      </div>
+      <div id="footer-logo">
+        <img src="img/footer_logo.png">
+      </div>
+      <div id="footer-hr">
+        <hr>
+        <p>&copy;2013 Travel for the Stars, Inc. &nbsp; All rights reserved. &nbsp; 615-329-2020</p>
+        <a href="http://www.twitter.com/travel4stars" target="blank"><img src="img/twitter_off.png" class="rollover"></a>
+      </div>
+    </div>
+  </footer>
 
 
 

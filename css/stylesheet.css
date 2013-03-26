@@ -150,8 +150,6 @@ hr {
 	float: left;
 } 
 
-
-
 .copy p {
 	font-family: "franklin-gothic-urw",sans-serif;
 	font-style: normal;
@@ -201,7 +199,7 @@ hr {
   padding-top: 150px;
 }
 
-.headline-section {
+.headline-section-copy {
 	width: 940px;
 	margin-left: auto;
   margin-right: auto;
@@ -304,7 +302,7 @@ a:active {color:#fff;}  /* selected link */
 	margin-left: 100px;
 }
 
-.aboutus-copy a {
+.clients-copy a {
 	font-family: "franklin-gothic-urw",sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -316,10 +314,10 @@ a:active {color:#fff;}  /* selected link */
 	text-transform: uppercase;
 }
 
-.aboutus-copy a:link {color:#fff;}      /* unvisited link */
-.aboutus-copy a:visited {color:#fff;}  /* visited link */
-.aboutus-copy a:hover {color:#f3b543;}  /* mouse over link */
-.aboutus-copy a:active {color:#fff;}  /* selected link */
+.clients-copy a:link {color:#fff;}      /* unvisited link */
+.clients-copy a:visited {color:#fff;}  /* visited link */
+.clients-copy a:hover {color:#f3b543;}  /* mouse over link */
+.clients-copy a:active {color:#fff;}  /* selected link */
 
 .clients-wrapper {
 	background-color: #cf2329;
@@ -337,6 +335,22 @@ a:active {color:#fff;}  /* selected link */
 	background-image: url(../img/ts_client.jpg);
  	background-repeat: repeat-x;
  	background-color: #150a1a;
+}
+
+.clients-copy {
+	padding-top: 100px;
+	width: 400px;
+	margin-left: 100px;
+	float: left;
+	text-align: left;
+}
+
+.clients-copy-right {
+	padding-top: 195px;
+	width: 400px;
+	margin-left: 10px;
+	float: left;
+	text-align: left;
 }
 
 .clients .headline-section h1 {
@@ -380,7 +394,7 @@ a:active {color:#fff;}  /* selected link */
 }
 
 .contact-right {
-	width: 500px; 
+	width: 325px; 
 	height: 600px;
 	padding-top: 100px;
 	padding-right: 50px;
@@ -498,7 +512,7 @@ a:active {color:#fff;}  /* selected link */
 
 .currency-wrapper {
 	width: 100%;
-	height: 1200px;
+	height: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	/*overflow: visible;*/
@@ -508,7 +522,7 @@ a:active {color:#fff;}  /* selected link */
 
 .currency {
 	width: 1000px; 
-	height: 1200px;
+	height: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../img/spacer.png);
@@ -760,6 +774,55 @@ input[type=button] {
 	line-height: 24px;
 }
 
+footer {
+	background-image: url(../img/footerbg.png);
+	background-repeat: repeat;
+	height: 250px;
+	padding: 50px 50px 50px 50px;
+}
+
+footer a {
+	float: left;
+	padding: 0px;
+}
+
+footer p {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #fff;
+	font-size: 13px;
+	line-height: 23px;
+}
+
+
+#footer-logo {
+	width: 175px;
+	height: 66px;
+	float:right;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+#footer-address {
+	width: 700px;
+	float: left;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+#footer-hr {
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+}
+
+#footer-content {
+	width: 100%;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 
 
