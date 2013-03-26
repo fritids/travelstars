@@ -494,19 +494,23 @@ if (isset($_REQUEST['email']))
       <div id="results"></div>
     </div>
   </div> <!-- end currency -->
+</div> <!-- currency wrapper end -->
 
   <footer>
-    <div id="footer-address">
-      <h3>Travel for the Stars<br> 1225 16th Ave South Nashville, TN 37212</h3>
-    </div>
-    <div id="footer-logo">
-      <img src="img/footer_logo.png">
-    </div>
-    <div id="footer-hr">
-    <hr>
+    <div id="footer-content">
+      <div id="footer-address">
+        <h3>Travel for the Stars<br> 1225 16th Ave South Nashville, TN 37212</h3>
+      </div>
+      <div id="footer-logo">
+        <img src="img/footer_logo.png">
+      </div>
+      <div id="footer-hr">
+        <hr>
+        <p>&copy;2013 Travel for the Stars, Inc. &nbsp; All rights reserved. &nbsp; 615-329-2020</p>
+        <a href="http://www.twitter.com/travel4stars" target="blank"><img src="img/twitter_off.png" class="rollover"></a>
+      </div>
     </div>
   </footer>
-</div> <!-- currency wrapper end -->
 
 
 

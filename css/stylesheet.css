@@ -302,7 +302,7 @@ a:active {color:#fff;}  /* selected link */
 	margin-left: 100px;
 }
 
-.aboutus-copy a {
+.clients-copy a {
 	font-family: "franklin-gothic-urw",sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -314,10 +314,10 @@ a:active {color:#fff;}  /* selected link */
 	text-transform: uppercase;
 }
 
-.aboutus-copy a:link {color:#fff;}      /* unvisited link */
-.aboutus-copy a:visited {color:#fff;}  /* visited link */
-.aboutus-copy a:hover {color:#f3b543;}  /* mouse over link */
-.aboutus-copy a:active {color:#fff;}  /* selected link */
+.clients-copy a:link {color:#fff;}      /* unvisited link */
+.clients-copy a:visited {color:#fff;}  /* visited link */
+.clients-copy a:hover {color:#f3b543;}  /* mouse over link */
+.clients-copy a:active {color:#fff;}  /* selected link */
 
 .clients-wrapper {
 	background-color: #cf2329;
@@ -775,43 +775,53 @@ input[type=button] {
 }
 
 footer {
-	background-color: #2d1c34;
+	background-image: url(../img/footerbg.png);
+	background-repeat: repeat;
 	height: 250px;
-	padding: 25px 50px 50px 50px;
+	padding: 50px 50px 50px 50px;
 }
 
 footer a {
-	font-family: "franklin-gothic-urw",sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 14px;
-	padding: 20px 15px 10px 0px;
-	color: #fff;
-	letter-spacing: 1px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: left;
+	float: left;
+	padding: 0px;
 }
 
-footer a:link {color:#fff;}      /* unvisited link */
-footer a:visited {color:#fff;}  /* visited link */
-footer a:hover {color:#f3b543;}  /* mouse over link */
-footer a:active {color:#fff;}  /* selected link */
+footer p {
+	font-family: "franklin-gothic-urw",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #fff;
+	font-size: 13px;
+	line-height: 23px;
+}
+
 
 #footer-logo {
 	width: 175px;
-	height: 75px;
+	height: 66px;
 	float:right;
+	margin-top: 0px;
+	padding-bottom: 0px;
 }
 
 #footer-address {
 	width: 700px;
 	float: left;
+	margin-top: 0px;
+	padding-bottom: 0px;
 }
 
 #footer-hr {
 	width: 100%;
 	float: left;
+	margin-top: 0px;
+}
+
+#footer-content {
+	width: 100%;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
