@@ -28,5 +28,6 @@
 
 <h2>Future plans:</h2>
 <h3>To be completed when time permits:</h3>
+
 1.Add blog section using Wordpress to highlight travel adventures, general agency news and industry related stories.
 2.Add custom Google Map. I plan on getting API key, setting up custom map and implementing 100% width map to site in it's own section.
