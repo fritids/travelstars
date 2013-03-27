@@ -4,8 +4,8 @@
 2. Use jquery to add scrolling fucntionality and fade in animations and random bg image on page load.
 3. Use php/ajax for email submit form.
 4. Add php/ajax currency converter functionality.
-5. Add google maps API to load custom map featuring "places to visit world map".
-
+5. Add google maps API to load custom map featuring "places to visit world map", and a wordpress blog section.
+<br>
 <h1>Phase 1:</h1>
 <h2>CSS/HTML overall site visual design.</h2>
 -Complete
