@@ -6,19 +6,19 @@
 4. Add php/ajax currency converter functionality.
 5. Add google maps API to load custom map featuring "places to visit world map".
 
-<h1>Phase 1:</h1><br>
+<h1>Phase 1:</h1>
 <h2>CSS/HTML overall site visual design.</h2>
 -Complete
 
-<h1>Phase 2:</h1><br>
+<h1>Phase 2:</h1>
 <h2>jquery animations and random bg image script.</h2>
 -Complete
 
-<h1>Phase 3:</h1><br>
+<h1>Phase 3:</h1>
 <h2>php/ajax email submit form</h2>
 -Complete
 
-<h1>Phase 4:</h1><br>
+<h1>Phase 4:</h1>
 <h2>php/ajax currency converter</h2>
 -Complete
 
