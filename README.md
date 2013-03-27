@@ -11,15 +11,15 @@
 -Complete
 
 <h1>Phase 2:</h1>
-<h2>jquery animations and random bg image script.</h2>
+<h2>Implement jquery animations and random bg image script.</h2>
 -Complete
 
 <h1>Phase 3:</h1>
-<h2>php/ajax email submit form</h2>
+<h2>Implement php/ajax email submit form</h2>
 -Complete
 
 <h1>Phase 4:</h1>
-<h2>php/ajax currency converter</h2>
+<h2>Implement php/ajax currency converter</h2>
 -Complete
 
 
