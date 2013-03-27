@@ -9,24 +9,24 @@
 
 
 
-<h1>Phase 1:</h1>
-<h2>CSS/HTML overall site visual design.</h2>
+<h2>Phase 1:</h2>
+<h3>CSS/HTML overall site visual design.</h3>
 -Complete
 
-<h1>Phase 2:</h1>
-<h2>Implement jquery animations and random bg image script.</h2>
+<h2>Phase 2:</h2>
+<h3>Implement jquery animations and random bg image script.</h3>
 -Complete
 
-<h1>Phase 3:</h1>
-<h2>Implement php/ajax email submit form</h2>
+<h2>Phase 3:</h2>
+<h3>Implement php/ajax email submit form</h3>
 -Complete
 
-<h1>Phase 4:</h1>
-<h2>Implement php/ajax currency converter</h2>
+<h2>Phase 4:</h2>
+<h3>Implement php/ajax currency converter</h3>
 -Complete
 
 
-<h1>Future plans:</h1>
-<h2>To be completed when time permits:</h2>
+<h2>Future plans:</h2>
+<h3>To be completed when time permits:</h3>
 -Add blog section using Wordpress to highlight travel adventures, general agency news and industry related stories.
 -Add custom Google Map. I plan on getting API key, setting up custom map and implementing 100% width map to site in it's own section.
