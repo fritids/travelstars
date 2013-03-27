@@ -18,11 +18,11 @@
 -Complete
 
 <h2>Phase 3:</h2>
-<h3>Implement php/ajax email submit form</h3>
+<h3>Implement php/ajax email submit form.</h3>
 -Complete
 
 <h2>Phase 4:</h2>
-<h3>Implement php/ajax currency converter</h3>
+<h3>Implement php/ajax currency converter.</h3>
 -Complete
 
 
