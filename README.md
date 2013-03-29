@@ -1,7 +1,7 @@
 <h1>Travel for the Stars site redesign</h1>
 <a href="http://www.travelforthestars.com" target="blank">View the site here</a>
 
-1. Create one page scrolling web app for the Travel Stars travel agency.
+1. Create one page scrolling web app for the Travel for the Stars travel agency.
 2. Use jquery to add scrolling fucntionality and fade in animations and random bg image on page load.
 3. Use php/ajax for email submit form.
 4. Add php/ajax currency converter functionality.
